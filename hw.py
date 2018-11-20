@@ -9,8 +9,8 @@ from my_functions import get_num, add, diff, prod, div
 
 def main():
     """
-    Get user inout for 2 numbers
-    print sum, diff, product and quotient
+    Get user input for 2 numbers
+    print sum, difference, product and quotient
     :return: none
     """
     first = get_num()
