@@ -1,3 +1,9 @@
+"""
+Collection of my fucntions
+"""
+from __future__ import print_function
+
+
 def get_num():
     """
     Function accepts a float user input

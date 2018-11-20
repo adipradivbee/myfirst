@@ -1,4 +1,10 @@
-from my_functions import *
+"""
+Does basic arithmetic functions
+on given 2 numbers and prints the
+results
+"""
+from __future__ import print_function
+from my_functions import get_num, add, diff, prod, div
 
 
 def main():
@@ -7,12 +13,12 @@ def main():
     print sum, diff, product and quotient
     :return: none
     """
-    n1 = get_num()
-    n2 = get_num()
-    print('The sum of {0} and {1} is {2}'.format(n1, n2, add(n1, n2)))
-    print('The diff of {0} and {1} is {2}'.format(n1, n2, diff(n1, n2)))
-    print('The prod of {0} and {1} is {2}'.format(n1, n2, prod(n1, n2)))
-    print('The quotient of {0} and {1} is {2}'.format(n1, n2, div(n1, n2)))
+    first = get_num()
+    second = get_num()
+    print('The sum of {0} and {1} is {2}'.format(first, second, add(first, second)))
+    print('The diff of {0} and {1} is {2}'.format(first, second, diff(first, second)))
+    print('The prod of {0} and {1} is {2}'.format(first, second, prod(first, second)))
+    print('The quotient of {0} and {1} is {2}'.format(first, second, div(first, second)))
     return 0
 
 
